@@ -18,6 +18,8 @@ namespace simple_calc
                 double total;
                 char oper;
 
+                Console.WriteLine("Привет, Друг!");
+
                 Console.Write("Введите первое число: ");
                 try
                 {
