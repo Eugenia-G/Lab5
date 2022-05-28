@@ -18,8 +18,6 @@ namespace simple_calc
                 double total;
                 char oper;
 
-                Console.WriteLine("Привет, Друг!");
-
                 Console.Write("Введите первое число: ");
                 try
                 {
@@ -81,6 +79,8 @@ namespace simple_calc
                 m1: 
                 Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
                 again = Convert.ToChar(Console.ReadLine());
+
+                Console.WriteLine("Вы хотите завершить программу? (д/н)");
             }
         }
     }
