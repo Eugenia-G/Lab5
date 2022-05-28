@@ -80,10 +80,13 @@ namespace simple_calc
                 Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 again = Convert.ToChar(Console.ReadLine());
 
                 Console.WriteLine("Вы хотите завершить программу? (д/н)");
 =======
+=======
+>>>>>>> f06cd10 (inout)
 =======
 >>>>>>> f06cd10 (inout)
                 try
@@ -96,6 +99,9 @@ namespace simple_calc
                     goto m1;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f06cd10 (inout)
+=======
 >>>>>>> f06cd10 (inout)
 =======
 >>>>>>> f06cd10 (inout)
