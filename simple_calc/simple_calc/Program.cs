@@ -78,9 +78,21 @@ namespace simple_calc
                 }
                 m1: 
                 Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+<<<<<<< HEAD
                 again = Convert.ToChar(Console.ReadLine());
 
                 Console.WriteLine("Вы хотите завершить программу? (д/н)");
+=======
+                try
+                {
+                    again = Convert.ToChar(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Введите д, если хотите продолжить работу, или н, если хотите выйти из приложения");
+                    goto m1;
+                }
+>>>>>>> f06cd10 (inout)
             }
         }
     }
